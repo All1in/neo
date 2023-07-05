@@ -1,10 +1,10 @@
 import './styles/App.css'
+import NeoList from "./components/NeoList/NeoList.jsx";
 
 function App() {
-  // const [count, setCount] = useState(0)
   return (
     <>
-      App component
+      <NeoList />
     </>
   )
 }
